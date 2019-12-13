@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Eit-Track" parallel="false" verbose="1">
+<parameter name="Url" value="http://spqa.thegoldenelement.com/" />
+<parameter name="vehiclename" value="loadtest-2370" />
+<parameter name="CorporateId" value="demo" />
+<parameter name="CorporateId_Invalid" value="AAAA" />
+<parameter name="Username" value="demo-ca" />
+<parameter name="Username_Invalid" value="BBBB" />
+<parameter name="password" value="12345" />
+<parameter name="password_Invalid" value="CCCCC" />
+<parameter name="EmailID" value="Jagadeshan@eitworks.com" />
+<parameter name="EmailID_Invalid" value="CCCCC" />
+<listeners>
+ <!--     <listener class-name="com.eit.listner.Screenshort" />
+    
+    <listener class-name="com.eit.listner.NewScreenShort" />
+    <listener class-name="com.eit.listner.Email_reportwithScreenshot" />
+        
+        <listener class-name="com.eit.listner.Screenshort" />
+    
+    -->
+    
+    <listener class-name="com.eit.listner.EmailREport" />
+    
+        <listener class-name="com.eit.listner.MyListner" />
+
+<listener class-name="com.eit.test.Execute_All_retry"/>
+      
+  </listeners>
+       <test name="Login_TestCase">
+    <classes>
+      <class name="com.eit.stepdefinition.Login_page_test_case"/>
+    <!--    
+      <methods>
+                <include name ="Arabic_Valid_Login"/>
+         
+      <include name ="English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name"/>
+      <include name ="English_Login_with_incorrect_Password"/>
+     
+    
+        <include name ="Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login"/> 
+          <include name ="English_Login_without_Username"/>  
+         
+     <include name ="English_ForgetPassword_without_User_name"/>
+     <include name ="Arabic_ForgetPassword_without_User_name"/>
+     
+       
+     <include name ="English_ForgetPassword_with_incorrect_Corporate_ID"/>
+     <include name ="Arabic_ForgetPassword_with_incorrect_Corporate_ID"/>
+     <include name ="English_ForgetPassword_with_incorrect_User_name"/>
+     <include name ="English_forgetpassword_with_incorrect_password_and_valid_password"/>
+     <include name ="Arabic_forgetpassword_with_incorrect_password_and_valid_password"/>
+   
+      
+     
+    </methods>  </class>
+    --> 
+    </classes>
+  </test> <!-- Test -->
+
+ <!--<test name ="Grid_View_testcase">
+  <classes>
+       <class name="com.eit.stepdefinition.Grid_View_page_test_case">
+     <methods>
+     
+      <include name ="English_Login_and_Gridview_checking_AllSelect_option"/>
+     <include name ="English_Login_and_Gridview_checking_Running_option"/>
+
+      <include name ="English_Login_and_Gridview_NearBy_Distance_Dropdown()"/>
+     <include name ="English_Login_and_Gridview_NearBy_Module_Map_ZoomIn_ZoomOut_Button()"/>
+     <include name ="English_Login_and_Gridview_NearBy_Module_Map_and_Satellite_button()"/>
+     
+     
+      
+     <include name ="English_Login_and_Gridview_NearBy_Module()"/>
+      <include name ="English_Login_and_Gridview_Vehicle_search_valid_name()"/>
+    <include name ="English_Login_and_Gridview_Vehicle_search_invalid_name()"/>    
+    <include name ="English_Login_and_Gridview_OperatorModule_Search_valid_operator()"/>
+<include name ="English_Login_and_Gridview_OperatorModule_Search_invalid_operator()"/>
+<include name ="English_Login_and_Gridview_Operator_tab_AllOption()"/>
+<include name ="English_Login_and_Gridview_Operator_tab_RunningOption()"/>
+<include name ="English_Login_and_Gridview_Operator_tab_StopOption()"/>
+<include name="English_Login_and_Gridview_Operator_tab_IdelOption()" />
+<include name ="English_Login_and_Gridview_Operator_tab_OverSpeedOption()"/>
+<include name ="English_Login_and_Gridview_Operator_tab_OFFlineOption()"/>
+<include name ="English_Login_and_Gridview_Operator_tab_YetToTramsmitOption()"/>
+<include name ="English_Login_and_Gridview_Operator_tab_ONlineOption()"/>
+<include name ="English_Login_and_Gridview_Operator_tab_TowedOption()"/>
+
+
+<include name ="English_Login_and_Gridview_Verifying_History_module_Enable_Running_checkbox()"/>
+ <include name ="English_Login_and_Gridview_Verifying_History_module_pause_button()"/>
+ <include name ="English_Login_and_Gridview_Verifying_History_module_playbutton()"/>
+  <include name ="English_Login_and_Gridview_Verifying_History_module_stop_button()"/>
+  <include name ="English_Login_and_Gridview_Verifying_Today_Status_chart_ContextMenu_Download_jpeg_option()"/>
+    <include name ="English_Login_and_Gridview_Verifying_Today_Status_chart_ContextMenu_Download_pdf_option()"/>
+    <include name ="English_Login_and_Gridview_Verifying_Speed_trend_chart_ContextMenu_Download_png_option()"/>
+    <include name ="English_Login_and_Gridview_Verifying_Speed_trend_chart_ContextMenu_Download_jpeg_option()"/>
+    <include name ="English_Login_and_Gridview_Verifying_Speed_trend_chart_ContextMenu_Download_pdf_option()"/>  
+    <include name ="English_Login_and_Gridview_Verifying_Lat_Lang_Live_Data_module()"/>
+
+     <include name ="Arabic_ForgetPassword_without_Corporate_ID"/>
+     <include name ="English_ForgetPassword_without_User_name"/>
+     <include name ="Arabic_ForgetPassword_without_User_name"/>
+     
+       
+     <include name ="English_ForgetPassword_with_incorrect_Corporate_ID"/>
+     <include name ="Arabic_ForgetPassword_with_incorrect_Corporate_ID"/>
+     <include name ="English_ForgetPassword_with_incorrect_User_name"/>
+     <include name ="English_forgetpassword_with_incorrect_password_and_valid_password"/>
+     <include name ="Arabic_forgetpassword_with_incorrect_password_and_valid_password"/>
+    
+
+    
+     
+    </methods> </class>
+      
+    </classes>
+
+  </test>-->
+</suite> <!-- Suite -->

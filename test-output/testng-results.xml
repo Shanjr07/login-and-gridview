@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="11" total="14" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Eit-Track" duration-ms="224896" started-at="2019-12-12T12:35:57Z" finished-at="2019-12-12T12:39:42Z">
+    <groups>
+    </groups>
+    <test name="Login_TestCase" duration-ms="224896" started-at="2019-12-12T12:35:57Z" finished-at="2019-12-12T12:39:42Z">
+      <class name="com.eit.stepdefinition.Login_page_test_case">
+        <test-method status="PASS" signature="browse(java.lang.String)[pri:0, instance:com.eit.stepdefinition.Login_page_test_case@754ba872]" name="browse" is-config="true" duration-ms="13553" started-at="2019-12-12T18:05:57Z" finished-at="2019-12-12T18:06:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://spqa.thegoldenelement.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browse -->
+        <test-method status="FAIL" signature="English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.eit.stepdefinition.Login_page_test_case@754ba872]" name="English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name" duration-ms="2963" started-at="2019-12-12T18:06:11Z" finished-at="2019-12-12T18:06:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AAAA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo-ca]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[English_Login_with_incorrect_Corporate_ID_or_User_name = Expected Result:Enter Correct CorporateID or User name but it shows ->Enter Valid Corporate Id expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: English_Login_with_incorrect_Corporate_ID_or_User_name = Expected Result:Enter Correct CorporateID or User name but it shows ->Enter Valid Corporate Id expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.eit.stepdefinition.Login_page_test_case.English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name(Login_page_test_case.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name -->
+        <test-method status="PASS" signature="closee()[pri:0, instance:com.eit.stepdefinition.Login_page_test_case@754ba872]" name="closee" is-config="true" duration-ms="882" started-at="2019-12-12T18:06:14Z" finished-at="2019-12-12T18:06:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closee -->
+        <test-method status="PASS" signature="browse(java.lang.String)[pri:0, instance:com.eit.stepdefinition.Login_page_test_case@754ba872]" name="browse" is-config="true" duration-ms="7113" started-at="2019-12-12T18:06:15Z" finished-at="2019-12-12T18:06:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://spqa.thegoldenelement.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browse -->
+        <test-method status="FAIL" signature="English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.eit.stepdefinition.Login_page_test_case@754ba872]" name="English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name" duration-ms="3791" started-at="2019-12-12T18:06:22Z" finished-at="2019-12-12T18:06:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AAAA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo-ca]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[English_Login_with_incorrect_Corporate_ID_or_User_name = Expected Result:Enter Correct CorporateID or User name but it shows ->Enter Valid Corporate Id expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: English_Login_with_incorrect_Corporate_ID_or_User_name = Expected Result:Enter Correct CorporateID or User name but it shows ->Enter Valid Corporate Id expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.eit.stepdefinition.Login_page_test_case.English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name(Login_page_test_case.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:1049)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1254)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name -->
+        <test-method status="PASS" signature="closee()[pri:0, instance:com.eit.stepdefinition.Login_page_test_case@754ba872]" name="closee" is-config="true" duration-ms="1283" started-at="2019-12-12T18:06:26Z" finished-at="2019-12-12T18:06:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closee -->
+        <test-method status="PASS" signature="browse(java.lang.String)[pri:0, instance:com.eit.stepdefinition.Login_page_test_case@754ba872]" name="browse" is-config="true" duration-ms="7905" started-at="2019-12-12T18:06:28Z" finished-at="2019-12-12T18:06:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://spqa.thegoldenelement.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browse -->
+        <test-method status="FAIL" signature="English_Login_with_incorrect_Password(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.eit.stepdefinition.Login_page_test_case@754ba872]" name="English_Login_with_incorrect_Password" duration-ms="4614" started-at="2019-12-12T18:06:36Z" finished-at="2019-12-12T18:06:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo-ca]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CCCCC]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[English_Login_with_incorrect_Password = Expected result : Enter Correct Password ->But it shows :Enter valid Password expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: English_Login_with_incorrect_Password = Expected result : Enter Correct Password ->But it shows :Enter valid Password expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.eit.stepdefinition.Login_page_test_case.English_Login_with_incorrect_Password(Login_page_test_case.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- English_Login_with_incorrect_Password -->
+        <test-method status="PASS" signature="closee()[pri:0, instance:com.eit.stepdefinition.Login_page_test_case@754ba872]" name="closee" is-config="true" duration-ms="698" started-at="2019-12-12T18:06:40Z" finished-at="2019-12-12T18:06:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closee -->
+        <test-method status="PASS" signature="browse(java.lang.String)[pri:0, instance:com.eit.stepdefinition.Login_page_test_case@754ba872]" name="browse" is-config="true" duration-ms="9290" started-at="2019-12-12T18:06:41Z" finished-at="2019-12-12T18:06:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://spqa.thegoldenelement.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browse -->
+        <test-method status="FAIL" signature="English_Login_with_incorrect_Password(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.eit.stepdefinition.Login_page_test_case@754ba872]" name="English_Login_with_incorrect_Password" duration-ms="3128" started-at="2019-12-12T18:06:50Z" finished-at="2019-12-12T18:06:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo-ca]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CCCCC]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[English_Login_with_incorrect_Password = Expected result : Enter Correct Password ->But it shows :Enter valid Password expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: English_Login_with_incorrect_Password = Expected result : Enter Correct Password ->But it shows :Enter valid Password expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.eit.stepdefinition.Login_page_test_case.English_Login_with_incorrect_Password(Login_page_test_case.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:1049)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1254)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- English_Login_with_incorrect_Password -->
+        <test-method status="PASS" signature="closee()[pri:0, instance:com.eit.stepdefinition.Login_page_test_case@754ba872]" name="closee" is-config="true" duration-ms="711" started-at="2019-12-12T18:06:54Z" finished-at="2019-12-12T18:06:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closee -->
+        <test-method status="PASS" signature="browse(java.lang.String)[pri:0, instance:com.eit.stepdefinition.Login_page_test_case@754ba872]" name="browse" is-config="true" duration-ms="8893" started-at="2019-12-12T18:06:55Z" finished-at="2019-12-12T18:07:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://spqa.thegoldenelement.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browse -->
+        <test-method status="PASS" signature="English_Valid_Login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.eit.stepdefinition.Login_page_test_case@754ba872]" name="English_Valid_Login" duration-ms="3995" started-at="2019-12-12T18:07:04Z" finished-at="2019-12-12T18:07:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo-ca]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- English_Valid_Login -->
+        <test-method status="PASS" signature="closee()[pri:0, instance:com.eit.stepdefinition.Login_page_test_case@754ba872]" name="closee" is-config="true" duration-ms="732" started-at="2019-12-12T18:07:08Z" finished-at="2019-12-12T18:07:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closee -->
+        <test-method status="PASS" signature="browse(java.lang.String)[pri:0, instance:com.eit.stepdefinition.Login_page_test_case@754ba872]" name="browse" is-config="true" duration-ms="7592" started-at="2019-12-12T18:07:08Z" finished-at="2019-12-12T18:07:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://spqa.thegoldenelement.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browse -->
+        <test-method status="FAIL" signature="Arabic_Valid_Login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.eit.stepdefinition.Login_page_test_case@754ba872]" name="Arabic_Valid_Login" duration-ms="1451" started-at="2019-12-12T18:07:16Z" finished-at="2019-12-12T18:07:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo-ca]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'DESKTOP-D4SHPE1', ip: '10.10.10.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\EIT-JA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59977}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e767fe4ff8044d9151a4ddb93b081d68]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'DESKTOP-D4SHPE1', ip: '10.10.10.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\EIT-JA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59977}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e767fe4ff8044d9151a4ddb93b081d68
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:138)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy10.getAttribute(Unknown Source)
+	at org.openqa.selenium.support.ui.Select.<init>(Select.java:54)
+	at com.eit.resource.base.langu(base.java:55)
+	at com.eit.stepdefinition.Login_page_test_case.Arabic_Valid_Login(Login_page_test_case.java:88)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Arabic_Valid_Login -->
+        <test-method status="PASS" signature="closee()[pri:0, instance:com.eit.stepdefinition.Login_page_test_case@754ba872]" name="closee" is-config="true" duration-ms="693" started-at="2019-12-12T18:07:18Z" finished-at="2019-12-12T18:07:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closee -->
+        <test-method status="PASS" signature="browse(java.lang.String)[pri:0, instance:com.eit.stepdefinition.Login_page_test_case@754ba872]" name="browse" is-config="true" duration-ms="8754" started-at="2019-12-12T18:07:18Z" finished-at="2019-12-12T18:07:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://spqa.thegoldenelement.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browse -->
+        <test-method status="PASS" signature="Arabic_Valid_Login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.eit.stepdefinition.Login_page_test_case@754ba872]" name="Arabic_Valid_Login" duration-ms="3218" started-at="2019-12-12T18:07:27Z" finished-at="2019-12-12T18:07:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo-ca]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Arabic_Valid_Login -->
+        <test-method status="PASS" signature="closee()[pri:0, instance:com.eit.stepdefinition.Login_page_test_case@754ba872]" name="closee" is-config="true" duration-ms="714" started-at="2019-12-12T18:07:30Z" finished-at="2019-12-12T18:07:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closee -->
+        <test-method status="PASS" signature="browse(java.lang.String)[pri:0, instance:com.eit.stepdefinition.Login_page_test_case@754ba872]" name="browse" is-config="true" duration-ms="6190" started-at="2019-12-12T18:07:31Z" finished-at="2019-12-12T18:07:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://spqa.thegoldenelement.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browse -->
+        <test-method status="PASS" signature="English_and_Arabic_Login_RememeberMe(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.eit.stepdefinition.Login_page_test_case@754ba872]" name="English_and_Arabic_Login_RememeberMe" duration-ms="7600" started-at="2019-12-12T18:07:37Z" finished-at="2019-12-12T18:07:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo-ca]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- English_and_Arabic_Login_RememeberMe -->
+        <test-method status="PASS" signature="closee()[pri:0, instance:com.eit.stepdefinition.Login_page_test_case@754ba872]" name="closee" is-config="true" duration-ms="739" started-at="2019-12-12T18:07:45Z" finished-at="2019-12-12T18:07:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closee -->
+        <test-method status="PASS" signature="browse(java.lang.String)[pri:0, instance:com.eit.stepdefinition.Login_page_test_case@754ba872]" name="browse" is-config="true" duration-ms="6288" started-at="2019-12-12T18:07:46Z" finished-at="2019-12-12T18:07:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://spqa.thegoldenelement.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browse -->
+        <test-method status="FAIL" signature="English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.eit.stepdefinition.Login_page_test_case@754ba872]" name="English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name" duration-ms="4316" started-at="2019-12-12T18:07:52Z" finished-at="2019-12-12T18:07:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AAAA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo-ca]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jagadeshan@eitworks.com]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[English_ForgetPassword_with_incorrect_Corporate_ID_or_User_name Expected result :It should show [Enter Correct Corporate Id or User name] but it shows Enter the Correct Corporate Id expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: English_ForgetPassword_with_incorrect_Corporate_ID_or_User_name Expected result :It should show [Enter Correct Corporate Id or User name] but it shows Enter the Correct Corporate Id expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.eit.stepdefinition.Login_page_test_case.English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name(Login_page_test_case.java:139)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name -->
+        <test-method status="PASS" signature="closee()[pri:0, instance:com.eit.stepdefinition.Login_page_test_case@754ba872]" name="closee" is-config="true" duration-ms="714" started-at="2019-12-12T18:07:57Z" finished-at="2019-12-12T18:07:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closee -->
+        <test-method status="PASS" signature="browse(java.lang.String)[pri:0, instance:com.eit.stepdefinition.Login_page_test_case@754ba872]" name="browse" is-config="true" duration-ms="5956" started-at="2019-12-12T18:07:57Z" finished-at="2019-12-12T18:08:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://spqa.thegoldenelement.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browse -->
+        <test-method status="FAIL" signature="English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.eit.stepdefinition.Login_page_test_case@754ba872]" name="English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name" duration-ms="5903" started-at="2019-12-12T18:08:03Z" finished-at="2019-12-12T18:08:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AAAA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo-ca]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jagadeshan@eitworks.com]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[English_ForgetPassword_with_incorrect_Corporate_ID_or_User_name Expected result :It should show [Enter Correct Corporate Id or User name] but it shows Enter the Correct Corporate Id expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: English_ForgetPassword_with_incorrect_Corporate_ID_or_User_name Expected result :It should show [Enter Correct Corporate Id or User name] but it shows Enter the Correct Corporate Id expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.eit.stepdefinition.Login_page_test_case.English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name(Login_page_test_case.java:139)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:1049)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1254)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name -->
+        <test-method status="PASS" signature="closee()[pri:0, instance:com.eit.stepdefinition.Login_page_test_case@754ba872]" name="closee" is-config="true" duration-ms="720" started-at="2019-12-12T18:08:10Z" finished-at="2019-12-12T18:08:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closee -->
+        <test-method status="PASS" signature="browse(java.lang.String)[pri:0, instance:com.eit.stepdefinition.Login_page_test_case@754ba872]" name="browse" is-config="true" duration-ms="8524" started-at="2019-12-12T18:08:10Z" finished-at="2019-12-12T18:08:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://spqa.thegoldenelement.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browse -->
+        <test-method status="FAIL" signature="English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.eit.stepdefinition.Login_page_test_case@754ba872]" name="English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login" duration-ms="21264" started-at="2019-12-12T18:08:19Z" finished-at="2019-12-12T18:08:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo-ca]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jagadeshan@eitworks.com]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login Expected Result : it should show [Password has been sent to your Email Successfully .  Please check your Inbox] but it shows Please Enter the Correct Registered Email Id expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login Expected Result : it should show [Password has been sent to your Email Successfully .  Please check your Inbox] but it shows Please Enter the Correct Registered Email Id expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.eit.stepdefinition.Login_page_test_case.English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(Login_page_test_case.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login -->
+        <test-method status="PASS" signature="closee()[pri:0, instance:com.eit.stepdefinition.Login_page_test_case@754ba872]" name="closee" is-config="true" duration-ms="787" started-at="2019-12-12T18:08:40Z" finished-at="2019-12-12T18:08:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closee -->
+        <test-method status="PASS" signature="browse(java.lang.String)[pri:0, instance:com.eit.stepdefinition.Login_page_test_case@754ba872]" name="browse" is-config="true" duration-ms="7705" started-at="2019-12-12T18:08:41Z" finished-at="2019-12-12T18:08:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://spqa.thegoldenelement.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browse -->
+        <test-method status="FAIL" signature="English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.eit.stepdefinition.Login_page_test_case@754ba872]" name="English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login" duration-ms="21086" started-at="2019-12-12T18:08:49Z" finished-at="2019-12-12T18:09:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo-ca]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jagadeshan@eitworks.com]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login Expected Result : it should show [Password has been sent to your Email Successfully .  Please check your Inbox] but it shows Please Enter the Correct Registered Email Id expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login Expected Result : it should show [Password has been sent to your Email Successfully .  Please check your Inbox] but it shows Please Enter the Correct Registered Email Id expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.eit.stepdefinition.Login_page_test_case.English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(Login_page_test_case.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:1049)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1254)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login -->
+        <test-method status="PASS" signature="closee()[pri:0, instance:com.eit.stepdefinition.Login_page_test_case@754ba872]" name="closee" is-config="true" duration-ms="716" started-at="2019-12-12T18:09:10Z" finished-at="2019-12-12T18:09:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closee -->
+        <test-method status="PASS" signature="browse(java.lang.String)[pri:0, instance:com.eit.stepdefinition.Login_page_test_case@754ba872]" name="browse" is-config="true" duration-ms="6304" started-at="2019-12-12T18:09:11Z" finished-at="2019-12-12T18:09:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://spqa.thegoldenelement.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browse -->
+        <test-method status="FAIL" signature="Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.eit.stepdefinition.Login_page_test_case@754ba872]" name="Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login" duration-ms="7415" started-at="2019-12-12T18:09:17Z" finished-at="2019-12-12T18:09:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo-ca]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jagadeshan@eitworks.com]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.eit.stepdefinition.Login_page_test_case.Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(Login_page_test_case.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login -->
+        <test-method status="PASS" signature="closee()[pri:0, instance:com.eit.stepdefinition.Login_page_test_case@754ba872]" name="closee" is-config="true" duration-ms="706" started-at="2019-12-12T18:09:25Z" finished-at="2019-12-12T18:09:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closee -->
+        <test-method status="PASS" signature="browse(java.lang.String)[pri:0, instance:com.eit.stepdefinition.Login_page_test_case@754ba872]" name="browse" is-config="true" duration-ms="8849" started-at="2019-12-12T18:09:26Z" finished-at="2019-12-12T18:09:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://spqa.thegoldenelement.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browse -->
+        <test-method status="FAIL" signature="Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.eit.stepdefinition.Login_page_test_case@754ba872]" name="Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login" duration-ms="6059" started-at="2019-12-12T18:09:35Z" finished-at="2019-12-12T18:09:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo-ca]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jagadeshan@eitworks.com]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.eit.stepdefinition.Login_page_test_case.Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(Login_page_test_case.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:1049)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1254)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login -->
+        <test-method status="PASS" signature="closee()[pri:0, instance:com.eit.stepdefinition.Login_page_test_case@754ba872]" name="closee" is-config="true" duration-ms="695" started-at="2019-12-12T18:09:41Z" finished-at="2019-12-12T18:09:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closee -->
+      </class> <!-- com.eit.stepdefinition.Login_page_test_case -->
+    </test> <!-- Login_TestCase -->
+  </suite> <!-- Eit-Track -->
+</testng-results>

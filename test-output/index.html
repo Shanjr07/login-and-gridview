@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 11 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Eit-Track">
+              <span class="suite-name border-failed">Eit-Track</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Eit-Track">
+                    <span>E:\Eit_track\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Eit-Track">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Eit-Track">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Eit-Track">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Eit-Track">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Eit-Track">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Eit-Track">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods, 11 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Eit-Track" class="hide-methods failed suite-Eit-Track"> (hide)</a> <!-- hide-methods failed suite-Eit-Track -->
+                      <a href="#" panel-name="suite-Eit-Track" class="show-methods failed suite-Eit-Track"> (show)</a> <!-- show-methods failed suite-Eit-Track -->
+                    </span>
+                    <div class="method-list-content failed suite-Eit-Track">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Eit-Track" title="com.eit.stepdefinition.Login_page_test_case" hash-for-method="Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(demo, demo-ca, Jagadeshan@eitworks.com)">Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(demo, demo-ca, Jagadeshan@eitworks.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Eit-Track" title="com.eit.stepdefinition.Login_page_test_case" hash-for-method="Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(demo, demo-ca, Jagadeshan@eitworks.com)">Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(demo, demo-ca, Jagadeshan@eitworks.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Eit-Track" title="com.eit.stepdefinition.Login_page_test_case" hash-for-method="Arabic_Valid_Login(demo, demo-ca, 12345)">Arabic_Valid_Login(demo, demo-ca, 12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Eit-Track" title="com.eit.stepdefinition.Login_page_test_case" hash-for-method="English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(demo, demo-ca, Jagadeshan@eitworks.com)">English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(demo, demo-ca, Jagadeshan@eitworks.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Eit-Track" title="com.eit.stepdefinition.Login_page_test_case" hash-for-method="English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(demo, demo-ca, Jagadeshan@eitworks.com)">English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(demo, demo-ca, Jagadeshan@eitworks.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Eit-Track" title="com.eit.stepdefinition.Login_page_test_case" hash-for-method="English_Login_with_incorrect_Password(demo, demo-ca, CCCCC)">English_Login_with_incorrect_Password(demo, demo-ca, CCCCC)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Eit-Track" title="com.eit.stepdefinition.Login_page_test_case" hash-for-method="English_Login_with_incorrect_Password(demo, demo-ca, CCCCC)">English_Login_with_incorrect_Password(demo, demo-ca, CCCCC)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Eit-Track" title="com.eit.stepdefinition.Login_page_test_case" hash-for-method="English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name(AAAA, demo-ca, Jagadeshan@eitworks.com)">English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name(AAAA, demo-ca, Jagadeshan@eitworks.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Eit-Track" title="com.eit.stepdefinition.Login_page_test_case" hash-for-method="English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name(AAAA, demo-ca, Jagadeshan@eitworks.com)">English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name(AAAA, demo-ca, Jagadeshan@eitworks.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Eit-Track" title="com.eit.stepdefinition.Login_page_test_case" hash-for-method="English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name(AAAA, demo-ca, 12345)">English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name(AAAA, demo-ca, 12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Eit-Track" title="com.eit.stepdefinition.Login_page_test_case" hash-for-method="English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name(AAAA, demo-ca, 12345)">English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name(AAAA, demo-ca, 12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Eit-Track -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Eit-Track" class="hide-methods passed suite-Eit-Track"> (hide)</a> <!-- hide-methods passed suite-Eit-Track -->
+                      <a href="#" panel-name="suite-Eit-Track" class="show-methods passed suite-Eit-Track"> (show)</a> <!-- show-methods passed suite-Eit-Track -->
+                    </span>
+                    <div class="method-list-content passed suite-Eit-Track">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Eit-Track" title="com.eit.stepdefinition.Login_page_test_case" hash-for-method="Arabic_Valid_Login(demo, demo-ca, 12345)">Arabic_Valid_Login(demo, demo-ca, 12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Eit-Track" title="com.eit.stepdefinition.Login_page_test_case" hash-for-method="English_Valid_Login(demo, demo-ca, 12345)">English_Valid_Login(demo, demo-ca, 12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Eit-Track" title="com.eit.stepdefinition.Login_page_test_case" hash-for-method="English_and_Arabic_Login_RememeberMe(demo, demo-ca, 12345)">English_and_Arabic_Login_RememeberMe(demo, demo-ca, 12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Eit-Track -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Eit-Track" class="panel Eit-Track">
+          <div class="suite-Eit-Track-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.eit.stepdefinition.Login_page_test_case</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(demo, demo-ca, Jagadeshan@eitworks.com)">
+                  </a> <!-- Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(demo, demo-ca, Jagadeshan@eitworks.com) -->
+                  <span class="method-name">Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login</span>
+                  <span class="parameters">(demo, demo-ca, Jagadeshan@eitworks.com)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.eit.stepdefinition.Login_page_test_case.Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(Login_page_test_case.java:235)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(demo, demo-ca, Jagadeshan@eitworks.com)">
+                  </a> <!-- Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(demo, demo-ca, Jagadeshan@eitworks.com) -->
+                  <span class="method-name">Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login</span>
+                  <span class="parameters">(demo, demo-ca, Jagadeshan@eitworks.com)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.eit.stepdefinition.Login_page_test_case.Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(Login_page_test_case.java:235)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Arabic_Valid_Login(demo, demo-ca, 12345)">
+                  </a> <!-- Arabic_Valid_Login(demo, demo-ca, 12345) -->
+                  <span class="method-name">Arabic_Valid_Login</span>
+                  <span class="parameters">(demo, demo-ca, 12345)</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
+System info: host: &apos;DESKTOP-D4SHPE1&apos;, ip: &apos;10.10.10.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\EIT-JA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59977}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e767fe4ff8044d9151a4ddb93b081d68
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:138)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy10.getAttribute(Unknown Source)
+	at org.openqa.selenium.support.ui.Select.&lt;init&gt;(Select.java:54)
+	at com.eit.resource.base.langu(base.java:55)
+	at com.eit.stepdefinition.Login_page_test_case.Arabic_Valid_Login(Login_page_test_case.java:88)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(demo, demo-ca, Jagadeshan@eitworks.com)">
+                  </a> <!-- English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(demo, demo-ca, Jagadeshan@eitworks.com) -->
+                  <span class="method-name">English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login</span>
+                  <span class="parameters">(demo, demo-ca, Jagadeshan@eitworks.com)</span>
+                  <div class="stack-trace">java.lang.AssertionError: English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login Expected Result : it should show [Password has been sent to your Email Successfully .  Please check your Inbox] but it shows Please Enter the Correct Registered Email Id expected [true] but found [false]
+	at com.eit.stepdefinition.Login_page_test_case.English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(Login_page_test_case.java:177)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(demo, demo-ca, Jagadeshan@eitworks.com)">
+                  </a> <!-- English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(demo, demo-ca, Jagadeshan@eitworks.com) -->
+                  <span class="method-name">English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login</span>
+                  <span class="parameters">(demo, demo-ca, Jagadeshan@eitworks.com)</span>
+                  <div class="stack-trace">java.lang.AssertionError: English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login Expected Result : it should show [Password has been sent to your Email Successfully .  Please check your Inbox] but it shows Please Enter the Correct Registered Email Id expected [true] but found [false]
+	at com.eit.stepdefinition.Login_page_test_case.English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(Login_page_test_case.java:177)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="English_Login_with_incorrect_Password(demo, demo-ca, CCCCC)">
+                  </a> <!-- English_Login_with_incorrect_Password(demo, demo-ca, CCCCC) -->
+                  <span class="method-name">English_Login_with_incorrect_Password</span>
+                  <span class="parameters">(demo, demo-ca, CCCCC)</span>
+                  <div class="stack-trace">java.lang.AssertionError: English_Login_with_incorrect_Password = Expected result : Enter Correct Password -&gt;But it shows :Enter valid Password expected [true] but found [false]
+	at com.eit.stepdefinition.Login_page_test_case.English_Login_with_incorrect_Password(Login_page_test_case.java:58)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="English_Login_with_incorrect_Password(demo, demo-ca, CCCCC)">
+                  </a> <!-- English_Login_with_incorrect_Password(demo, demo-ca, CCCCC) -->
+                  <span class="method-name">English_Login_with_incorrect_Password</span>
+                  <span class="parameters">(demo, demo-ca, CCCCC)</span>
+                  <div class="stack-trace">java.lang.AssertionError: English_Login_with_incorrect_Password = Expected result : Enter Correct Password -&gt;But it shows :Enter valid Password expected [true] but found [false]
+	at com.eit.stepdefinition.Login_page_test_case.English_Login_with_incorrect_Password(Login_page_test_case.java:58)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name(AAAA, demo-ca, Jagadeshan@eitworks.com)">
+                  </a> <!-- English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name(AAAA, demo-ca, Jagadeshan@eitworks.com) -->
+                  <span class="method-name">English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name</span>
+                  <span class="parameters">(AAAA, demo-ca, Jagadeshan@eitworks.com)</span>
+                  <div class="stack-trace">java.lang.AssertionError: English_ForgetPassword_with_incorrect_Corporate_ID_or_User_name Expected result :It should show [Enter Correct Corporate Id or User name] but it shows Enter the Correct Corporate Id expected [true] but found [false]
+	at com.eit.stepdefinition.Login_page_test_case.English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name(Login_page_test_case.java:139)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name(AAAA, demo-ca, Jagadeshan@eitworks.com)">
+                  </a> <!-- English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name(AAAA, demo-ca, Jagadeshan@eitworks.com) -->
+                  <span class="method-name">English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name</span>
+                  <span class="parameters">(AAAA, demo-ca, Jagadeshan@eitworks.com)</span>
+                  <div class="stack-trace">java.lang.AssertionError: English_ForgetPassword_with_incorrect_Corporate_ID_or_User_name Expected result :It should show [Enter Correct Corporate Id or User name] but it shows Enter the Correct Corporate Id expected [true] but found [false]
+	at com.eit.stepdefinition.Login_page_test_case.English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name(Login_page_test_case.java:139)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name(AAAA, demo-ca, 12345)">
+                  </a> <!-- English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name(AAAA, demo-ca, 12345) -->
+                  <span class="method-name">English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name</span>
+                  <span class="parameters">(AAAA, demo-ca, 12345)</span>
+                  <div class="stack-trace">java.lang.AssertionError: English_Login_with_incorrect_Corporate_ID_or_User_name = Expected Result:Enter Correct CorporateID or User name but it shows -&gt;Enter Valid Corporate Id expected [true] but found [false]
+	at com.eit.stepdefinition.Login_page_test_case.English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name(Login_page_test_case.java:35)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name(AAAA, demo-ca, 12345)">
+                  </a> <!-- English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name(AAAA, demo-ca, 12345) -->
+                  <span class="method-name">English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name</span>
+                  <span class="parameters">(AAAA, demo-ca, 12345)</span>
+                  <div class="stack-trace">java.lang.AssertionError: English_Login_with_incorrect_Corporate_ID_or_User_name = Expected Result:Enter Correct CorporateID or User name but it shows -&gt;Enter Valid Corporate Id expected [true] but found [false]
+	at com.eit.stepdefinition.Login_page_test_case.English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name(Login_page_test_case.java:35)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Eit-Track-class-failed -->
+          <div class="suite-Eit-Track-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.eit.stepdefinition.Login_page_test_case</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Arabic_Valid_Login(demo, demo-ca, 12345)">
+                  </a> <!-- Arabic_Valid_Login(demo, demo-ca, 12345) -->
+                  <span class="method-name">Arabic_Valid_Login</span>
+                  <span class="parameters">(demo, demo-ca, 12345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="English_Valid_Login(demo, demo-ca, 12345)">
+                  </a> <!-- English_Valid_Login(demo, demo-ca, 12345) -->
+                  <span class="method-name">English_Valid_Login</span>
+                  <span class="parameters">(demo, demo-ca, 12345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="English_and_Arabic_Login_RememeberMe(demo, demo-ca, 12345)">
+                  </a> <!-- English_and_Arabic_Login_RememeberMe(demo, demo-ca, 12345) -->
+                  <span class="method-name">English_and_Arabic_Login_RememeberMe</span>
+                  <span class="parameters">(demo, demo-ca, 12345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Eit-Track-class-passed -->
+        </div> <!-- panel Eit-Track -->
+        <div panel-name="test-xml-Eit-Track" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\Eit_track\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Eit-Track&quot;&gt;
+  &lt;parameter name=&quot;CorporateId_Invalid&quot; value=&quot;AAAA&quot;/&gt;
+  &lt;parameter name=&quot;EmailID&quot; value=&quot;Jagadeshan@eitworks.com&quot;/&gt;
+  &lt;parameter name=&quot;password&quot; value=&quot;12345&quot;/&gt;
+  &lt;parameter name=&quot;vehiclename&quot; value=&quot;loadtest-2370&quot;/&gt;
+  &lt;parameter name=&quot;password_Invalid&quot; value=&quot;CCCCC&quot;/&gt;
+  &lt;parameter name=&quot;Username&quot; value=&quot;demo-ca&quot;/&gt;
+  &lt;parameter name=&quot;EmailID_Invalid&quot; value=&quot;CCCCC&quot;/&gt;
+  &lt;parameter name=&quot;CorporateId&quot; value=&quot;demo&quot;/&gt;
+  &lt;parameter name=&quot;Username_Invalid&quot; value=&quot;BBBB&quot;/&gt;
+  &lt;parameter name=&quot;Url&quot; value=&quot;http://spqa.thegoldenelement.com/&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.eit.listner.EmailREport&quot;/&gt;
+    &lt;listener class-name=&quot;com.eit.listner.MyListner&quot;/&gt;
+    &lt;listener class-name=&quot;com.eit.test.Execute_All_retry&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Login_TestCase&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.eit.stepdefinition.Login_page_test_case&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login_TestCase --&gt;
+&lt;/suite&gt; &lt;!-- Eit-Track --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Eit-Track" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Eit-Track</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login_TestCase (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Eit-Track" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Eit-Track</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Eit-Track" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Eit-Track</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Eit-Track');
+function tableData_Eit-Track() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login')
+data.setCell(0, 2, 'com.eit.stepdefinition.Login_page_test_case')
+data.setCell(0, 3, 21264);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login')
+data.setCell(1, 2, 'com.eit.stepdefinition.Login_page_test_case')
+data.setCell(1, 3, 21086);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'English_and_Arabic_Login_RememeberMe')
+data.setCell(2, 2, 'com.eit.stepdefinition.Login_page_test_case')
+data.setCell(2, 3, 7600);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login')
+data.setCell(3, 2, 'com.eit.stepdefinition.Login_page_test_case')
+data.setCell(3, 3, 7415);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login')
+data.setCell(4, 2, 'com.eit.stepdefinition.Login_page_test_case')
+data.setCell(4, 3, 6059);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name')
+data.setCell(5, 2, 'com.eit.stepdefinition.Login_page_test_case')
+data.setCell(5, 3, 5903);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'English_Login_with_incorrect_Password')
+data.setCell(6, 2, 'com.eit.stepdefinition.Login_page_test_case')
+data.setCell(6, 3, 4614);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name')
+data.setCell(7, 2, 'com.eit.stepdefinition.Login_page_test_case')
+data.setCell(7, 3, 4316);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'English_Valid_Login')
+data.setCell(8, 2, 'com.eit.stepdefinition.Login_page_test_case')
+data.setCell(8, 3, 3995);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name')
+data.setCell(9, 2, 'com.eit.stepdefinition.Login_page_test_case')
+data.setCell(9, 3, 3791);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Arabic_Valid_Login')
+data.setCell(10, 2, 'com.eit.stepdefinition.Login_page_test_case')
+data.setCell(10, 3, 3218);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'English_Login_with_incorrect_Password')
+data.setCell(11, 2, 'com.eit.stepdefinition.Login_page_test_case')
+data.setCell(11, 3, 3128);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name')
+data.setCell(12, 2, 'com.eit.stepdefinition.Login_page_test_case')
+data.setCell(12, 3, 2963);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Arabic_Valid_Login')
+data.setCell(13, 2, 'com.eit.stepdefinition.Login_page_test_case')
+data.setCell(13, 3, 1451);
+window.suiteTableData['Eit-Track']= { tableData: data, tableDiv: 'times-div-Eit-Track'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Eit-Track">
+              </div> <!-- times-div-Eit-Track -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Eit-Track" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Eit-Track</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Eit-Track" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Eit-Track" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.eit.stepdefinition.Login_page_test_case</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">browse(http://spqa.thegoldenelement.com/)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name(AAAA, demo-ca, 12345)</span>
+                <span class="method-start">13553 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closee</span>
+                <span class="method-start">17113 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browse(http://spqa.thegoldenelement.com/)</span>
+                <span class="method-start">17995 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name(AAAA, demo-ca, 12345)</span>
+                <span class="method-start">25108 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closee</span>
+                <span class="method-start">29289 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browse(http://spqa.thegoldenelement.com/)</span>
+                <span class="method-start">30573 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">English_Login_with_incorrect_Password(demo, demo-ca, CCCCC)</span>
+                <span class="method-start">38478 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closee</span>
+                <span class="method-start">43419 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browse(http://spqa.thegoldenelement.com/)</span>
+                <span class="method-start">44117 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">English_Login_with_incorrect_Password(demo, demo-ca, CCCCC)</span>
+                <span class="method-start">53408 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closee</span>
+                <span class="method-start">56873 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browse(http://spqa.thegoldenelement.com/)</span>
+                <span class="method-start">57584 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">English_Valid_Login(demo, demo-ca, 12345)</span>
+                <span class="method-start">66477 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closee</span>
+                <span class="method-start">70473 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browse(http://spqa.thegoldenelement.com/)</span>
+                <span class="method-start">71205 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Arabic_Valid_Login(demo, demo-ca, 12345)</span>
+                <span class="method-start">78797 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closee</span>
+                <span class="method-start">80664 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browse(http://spqa.thegoldenelement.com/)</span>
+                <span class="method-start">81357 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Arabic_Valid_Login(demo, demo-ca, 12345)</span>
+                <span class="method-start">90111 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closee</span>
+                <span class="method-start">93331 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browse(http://spqa.thegoldenelement.com/)</span>
+                <span class="method-start">94045 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">English_and_Arabic_Login_RememeberMe(demo, demo-ca, 12345)</span>
+                <span class="method-start">100235 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closee</span>
+                <span class="method-start">107836 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browse(http://spqa.thegoldenelement.com/)</span>
+                <span class="method-start">108575 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name(AAAA, demo-ca, Jagadeshan@eitworks.com)</span>
+                <span class="method-start">114863 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closee</span>
+                <span class="method-start">119581 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browse(http://spqa.thegoldenelement.com/)</span>
+                <span class="method-start">120295 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name(AAAA, demo-ca, Jagadeshan@eitworks.com)</span>
+                <span class="method-start">126251 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closee</span>
+                <span class="method-start">132508 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browse(http://spqa.thegoldenelement.com/)</span>
+                <span class="method-start">133228 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(demo, demo-ca, Jagadeshan@eitworks.com)</span>
+                <span class="method-start">141752 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closee</span>
+                <span class="method-start">163382 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browse(http://spqa.thegoldenelement.com/)</span>
+                <span class="method-start">164169 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(demo, demo-ca, Jagadeshan@eitworks.com)</span>
+                <span class="method-start">171874 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closee</span>
+                <span class="method-start">193291 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browse(http://spqa.thegoldenelement.com/)</span>
+                <span class="method-start">194007 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(demo, demo-ca, Jagadeshan@eitworks.com)</span>
+                <span class="method-start">200311 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closee</span>
+                <span class="method-start">208065 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browse(http://spqa.thegoldenelement.com/)</span>
+                <span class="method-start">208771 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(demo, demo-ca, Jagadeshan@eitworks.com)</span>
+                <span class="method-start">217620 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closee</span>
+                <span class="method-start">224028 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

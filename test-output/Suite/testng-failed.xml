@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="password" value="12345"/>
+  <parameter name="vehiclename" value="loadtest-2370"/>
+  <parameter name="Username" value="demo-ca"/>
+  <parameter name="CorporateId" value="demo"/>
+  <listeners>
+    <listener class-name="com.eit.listner.Email_reportwithScreenshot"/>
+    <listener class-name="com.eit.test.Execute_All_retry"/>
+  </listeners>
+  <test name="Grid_View_testcase(failed)">
+    <classes>
+      <class name="com.eit.stepdefinition.Grid_View_page_test_case">
+        <methods>
+          <include name="English_Login_and_Gridview_checking_Running_option"/>
+          <include name="browse"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.eit.stepdefinition.Grid_View_page_test_case -->
+    </classes>
+  </test> <!-- Grid_View_testcase(failed) -->
+</suite> <!-- Failed suite [Suite] -->

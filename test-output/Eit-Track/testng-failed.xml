@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Eit-Track]">
+  <parameter name="CorporateId_Invalid" value="AAAA"/>
+  <parameter name="EmailID" value="Jagadeshan@eitworks.com"/>
+  <parameter name="password" value="12345"/>
+  <parameter name="vehiclename" value="loadtest-2370"/>
+  <parameter name="password_Invalid" value="CCCCC"/>
+  <parameter name="Username" value="demo-ca"/>
+  <parameter name="EmailID_Invalid" value="CCCCC"/>
+  <parameter name="CorporateId" value="demo"/>
+  <parameter name="Username_Invalid" value="BBBB"/>
+  <parameter name="Url" value="http://spqa.thegoldenelement.com/"/>
+  <listeners>
+    <listener class-name="com.eit.listner.EmailREport"/>
+    <listener class-name="com.eit.listner.MyListner"/>
+    <listener class-name="com.eit.test.Execute_All_retry"/>
+  </listeners>
+  <test name="Login_TestCase(failed)">
+    <classes>
+      <class name="com.eit.stepdefinition.Login_page_test_case">
+        <methods>
+          <include name="Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login" invocation-numbers="0 0"/>
+          <include name="Arabic_Valid_Login" invocation-numbers="0"/>
+          <include name="English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login" invocation-numbers="0 0"/>
+          <include name="English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name" invocation-numbers="0 0"/>
+          <include name="English_Login_with_incorrect_Password" invocation-numbers="0 0"/>
+          <include name="English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name" invocation-numbers="0 0"/>
+          <include name="closee"/>
+          <include name="browse"/>
+        </methods>
+      </class> <!-- com.eit.stepdefinition.Login_page_test_case -->
+    </classes>
+  </test> <!-- Login_TestCase(failed) -->
+</suite> <!-- Failed suite [Eit-Track] -->

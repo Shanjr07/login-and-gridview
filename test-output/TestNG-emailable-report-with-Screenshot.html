@@ -1,0 +1,242 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG Report</title>
+<style type="text/css">
+table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}
+td,th {border:1px solid #009;padding:.25em .5em}
+.result th {vertical-align:bottom}
+.param th {padding-left:1em;padding-right:1em}
+.param td {padding-left:.5em;padding-right:2em}
+.stripe td,.stripe th {background-color: #E6EBF9}
+.numi,.numi_attn {text-align:right}
+.total td {font-weight:bold}
+.passedodd td {background-color: #0A0}
+.passedeven td {background-color: #3F3}
+.skippedodd td {background-color: #CCC}
+.skippedodd td {background-color: #DDD}
+.failedodd td,.numi_attn {background-color: #F33}
+.failedeven td,.stripe .numi_attn {background-color: #D00}
+.stacktrace {white-space:pre;font-family:monospace}
+.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="testOverview">
+<tr><th>Test</th><th># passed</th><th># skipped</th><th># failed</th><th>Start<br/>Time</th><th>End<br/>Time</th><th>Total<br/>Time(hh:mm:ss)</th><th>Included<br/>Groups</th><th>Excluded<br/>Groups</th></tr>
+<tr><th colspan="10">Eit-Track</th></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t1"><b>Login_TestCase</b></a></td><td class="numi">3</td><td class="numi">0</td><td class="numi_attn">6</td><td class="numi">18:05:57</td></td>
+<td class="numi">18:09:42</td></td>
+<td class="numi">00:03:44</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="methodOverview" id="summary">
+<tr><th>Class</th><th>Method</th><th>Exception</th><th>Start Time </th><th>Time<br/>(hh:mm:ss)</th></tr>
+<tr><th colspan="5">Eit-Track</th></tr>
+<tr id="t1"><th colspan="5">Login_TestCase &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="6">com.eit.stepdefinition.Login_page_test_case</td><td><a href="#m1"><b>Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login</b>  </a></td><td class="numi" style="text-align:left;padding-right:2em">java.lang.AssertionError: expected [true] but found [false]<br/></td><td style="text-align:right">18:09:35</td><td class="numi">00:00:0-10</td></tr><tr class="failedodd"><td><a href="#m2"><b>Arabic_Valid_Login</b>  </a></td><td class="numi" style="text-align:left;padding-right:2em">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document<br/></td><td style="text-align:right">18:07:16</td><td class="numi">00:00:01</td></tr><tr class="failedodd"><td><a href="#m3"><b>English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login</b>  </a></td><td class="numi" style="text-align:left;padding-right:2em">java.lang.AssertionError: English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login Expected Result : it should show [Password has been sent to your Email Successfully .  Please check your Inbox] but it shows Please Enter the Correct Registered Email Id expected [true] but found [false]<br/></td><td style="text-align:right">18:08:19</td><td class="numi">00:00:51</td></tr><tr class="failedodd"><td><a href="#m4"><b>English_Login_with_incorrect_Password</b>  </a></td><td class="numi" style="text-align:left;padding-right:2em">java.lang.AssertionError: English_Login_with_incorrect_Password = Expected result : Enter Correct Password -&gt;But it shows :Enter valid Password expected [true] but found [false]<br/></td><td style="text-align:right">18:06:36</td><td class="numi">00:00:18</td></tr><tr class="failedodd"><td><a href="#m5"><b>English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name</b>  </a></td><td class="numi" style="text-align:left;padding-right:2em">java.lang.AssertionError: English_ForgetPassword_with_incorrect_Corporate_ID_or_User_name Expected result :It should show [Enter Correct Corporate Id or User name] but it shows Enter the Correct Corporate Id expected [true] but found [false]<br/></td><td style="text-align:right">18:08:03</td><td class="numi">00:00:0-7</td></tr><tr class="failedodd"><td><a href="#m6"><b>English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name</b>  </a></td><td class="numi" style="text-align:left;padding-right:2em">java.lang.AssertionError: English_Login_with_incorrect_Corporate_ID_or_User_name = Expected Result:Enter Correct CorporateID or User name but it shows -&gt;Enter Valid Corporate Id expected [true] but found [false]<br/></td><td style="text-align:right">18:06:22</td><td class="numi">00:00:0-8</td></tr>
+<tr><th colspan="5">Login_TestCase &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="3">com.eit.stepdefinition.Login_page_test_case</td><td><a href="#m7"><b>Arabic_Valid_Login</b>  </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">18:07:27</td><td class="numi">00:00:03</td></tr><tr class="passedodd"><td><a href="#m8"><b>English_Valid_Login</b>  </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">18:07:04</td><td class="numi">00:00:04</td></tr><tr class="passedodd"><td><a href="#m9"><b>English_and_Arabic_Login_RememeberMe</b>  </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">18:07:37</td><td class="numi">00:00:08</td></tr>
+</table>
+<h1>Login_TestCase</h1>
+<h2 id="m1">com.eit.stepdefinition.Login_page_test_case:Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Param.1</th><th>Param.2</th><th>Param.3</th></tr>
+<tr class="param stripe"><td>demo</td>
+<td>demo-ca</td>
+<td>Jagadeshan@eitworks.com</td>
+</tr>
+<tr><td colspan="3">
+<div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at com.eit.stepdefinition.Login_page_test_case.Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(Login_page_test_case.java:235)
+... Removed 28 stack frames</div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.eit.stepdefinition.Login_page_test_case:Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Param.1</th><th>Param.2</th><th>Param.3</th></tr>
+<tr class="param stripe"><td>demo</td>
+<td>demo-ca</td>
+<td>Jagadeshan@eitworks.com</td>
+</tr>
+<tr><td colspan="3">
+<div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at com.eit.stepdefinition.Login_page_test_case.Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(Login_page_test_case.java:235)
+... Removed 28 stack frames</div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.eit.stepdefinition.Login_page_test_case:Arabic_Valid_Login</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Param.1</th><th>Param.2</th><th>Param.3</th></tr>
+<tr class="param stripe"><td>demo</td>
+<td>demo-ca</td>
+<td>12345</td>
+</tr>
+<tr><td colspan="3">
+<div class="stacktrace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
+System info: host: &apos;DESKTOP-D4SHPE1&apos;, ip: &apos;10.10.10.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\EIT-JA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59977}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e767fe4ff8044d9151a4ddb93b081d68
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:138)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy10.getAttribute(Unknown Source)
+	at org.openqa.selenium.support.ui.Select.&lt;init&gt;(Select.java:54)
+	at com.eit.resource.base.langu(base.java:55)
+	at com.eit.stepdefinition.Login_page_test_case.Arabic_Valid_Login(Login_page_test_case.java:88)
+... Removed 32 stack frames</div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">com.eit.stepdefinition.Login_page_test_case:English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Param.1</th><th>Param.2</th><th>Param.3</th></tr>
+<tr class="param stripe"><td>demo</td>
+<td>demo-ca</td>
+<td>Jagadeshan@eitworks.com</td>
+</tr>
+<tr><td colspan="3">
+<div class="stacktrace">java.lang.AssertionError: English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login Expected Result : it should show [Password has been sent to your Email Successfully .  Please check your Inbox] but it shows Please Enter the Correct Registered Email Id expected [true] but found [false]
+	at com.eit.stepdefinition.Login_page_test_case.English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(Login_page_test_case.java:177)
+... Removed 27 stack frames</div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.eit.stepdefinition.Login_page_test_case:English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Param.1</th><th>Param.2</th><th>Param.3</th></tr>
+<tr class="param stripe"><td>demo</td>
+<td>demo-ca</td>
+<td>Jagadeshan@eitworks.com</td>
+</tr>
+<tr><td colspan="3">
+<div class="stacktrace">java.lang.AssertionError: English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login Expected Result : it should show [Password has been sent to your Email Successfully .  Please check your Inbox] but it shows Please Enter the Correct Registered Email Id expected [true] but found [false]
+	at com.eit.stepdefinition.Login_page_test_case.English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(Login_page_test_case.java:177)
+... Removed 27 stack frames</div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">com.eit.stepdefinition.Login_page_test_case:English_Login_with_incorrect_Password</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Param.1</th><th>Param.2</th><th>Param.3</th></tr>
+<tr class="param stripe"><td>demo</td>
+<td>demo-ca</td>
+<td>CCCCC</td>
+</tr>
+<tr><td colspan="3">
+<div class="stacktrace">java.lang.AssertionError: English_Login_with_incorrect_Password = Expected result : Enter Correct Password -&gt;But it shows :Enter valid Password expected [true] but found [false]
+	at com.eit.stepdefinition.Login_page_test_case.English_Login_with_incorrect_Password(Login_page_test_case.java:58)
+... Removed 27 stack frames</div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">com.eit.stepdefinition.Login_page_test_case:English_Login_with_incorrect_Password</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Param.1</th><th>Param.2</th><th>Param.3</th></tr>
+<tr class="param stripe"><td>demo</td>
+<td>demo-ca</td>
+<td>CCCCC</td>
+</tr>
+<tr><td colspan="3">
+<div class="stacktrace">java.lang.AssertionError: English_Login_with_incorrect_Password = Expected result : Enter Correct Password -&gt;But it shows :Enter valid Password expected [true] but found [false]
+	at com.eit.stepdefinition.Login_page_test_case.English_Login_with_incorrect_Password(Login_page_test_case.java:58)
+... Removed 27 stack frames</div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">com.eit.stepdefinition.Login_page_test_case:English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Param.1</th><th>Param.2</th><th>Param.3</th></tr>
+<tr class="param stripe"><td>AAAA</td>
+<td>demo-ca</td>
+<td>Jagadeshan@eitworks.com</td>
+</tr>
+<tr><td colspan="3">
+<div class="stacktrace">java.lang.AssertionError: English_ForgetPassword_with_incorrect_Corporate_ID_or_User_name Expected result :It should show [Enter Correct Corporate Id or User name] but it shows Enter the Correct Corporate Id expected [true] but found [false]
+	at com.eit.stepdefinition.Login_page_test_case.English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name(Login_page_test_case.java:139)
+... Removed 27 stack frames</div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">com.eit.stepdefinition.Login_page_test_case:English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Param.1</th><th>Param.2</th><th>Param.3</th></tr>
+<tr class="param stripe"><td>AAAA</td>
+<td>demo-ca</td>
+<td>Jagadeshan@eitworks.com</td>
+</tr>
+<tr><td colspan="3">
+<div class="stacktrace">java.lang.AssertionError: English_ForgetPassword_with_incorrect_Corporate_ID_or_User_name Expected result :It should show [Enter Correct Corporate Id or User name] but it shows Enter the Correct Corporate Id expected [true] but found [false]
+	at com.eit.stepdefinition.Login_page_test_case.English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name(Login_page_test_case.java:139)
+... Removed 27 stack frames</div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">com.eit.stepdefinition.Login_page_test_case:English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Param.1</th><th>Param.2</th><th>Param.3</th></tr>
+<tr class="param stripe"><td>AAAA</td>
+<td>demo-ca</td>
+<td>12345</td>
+</tr>
+<tr><td colspan="3">
+<div class="stacktrace">java.lang.AssertionError: English_Login_with_incorrect_Corporate_ID_or_User_name = Expected Result:Enter Correct CorporateID or User name but it shows -&gt;Enter Valid Corporate Id expected [true] but found [false]
+	at com.eit.stepdefinition.Login_page_test_case.English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name(Login_page_test_case.java:35)
+... Removed 27 stack frames</div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">com.eit.stepdefinition.Login_page_test_case:English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Param.1</th><th>Param.2</th><th>Param.3</th></tr>
+<tr class="param stripe"><td>AAAA</td>
+<td>demo-ca</td>
+<td>12345</td>
+</tr>
+<tr><td colspan="3">
+<div class="stacktrace">java.lang.AssertionError: English_Login_with_incorrect_Corporate_ID_or_User_name = Expected Result:Enter Correct CorporateID or User name but it shows -&gt;Enter Valid Corporate Id expected [true] but found [false]
+	at com.eit.stepdefinition.Login_page_test_case.English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name(Login_page_test_case.java:35)
+... Removed 27 stack frames</div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">com.eit.stepdefinition.Login_page_test_case:Arabic_Valid_Login</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Param.1</th><th>Param.2</th><th>Param.3</th></tr>
+<tr class="param stripe"><td>demo</td>
+<td>demo-ca</td>
+<td>12345</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">com.eit.stepdefinition.Login_page_test_case:English_Valid_Login</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Param.1</th><th>Param.2</th><th>Param.3</th></tr>
+<tr class="param stripe"><td>demo</td>
+<td>demo-ca</td>
+<td>12345</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">com.eit.stepdefinition.Login_page_test_case:English_and_Arabic_Login_RememeberMe</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Param.1</th><th>Param.2</th><th>Param.3</th></tr>
+<tr class="param stripe"><td>demo</td>
+<td>demo-ca</td>
+<td>12345</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<center> SCREENSHOTS</center>
+</body></html>
