@@ -70,7 +70,7 @@ public class base {
       public void waitsvis(WebElement eleme) {
     	  gWait = new FluentWait<WebDriver>(driv).withTimeout(Duration.ofSeconds(60))
   		        .pollingEvery(Duration.ofMillis(500)).ignoring(Exception.class);
-    	  gWait.until(ExpectedConditions.visibilityOf(eleme));;
+    	  gWait.until(ExpectedConditions.visibilityOf(eleme));
       }
       public void waits(WebElement eleme) {
     	  gWait = new FluentWait<WebDriver>(driv).withTimeout(Duration.ofSeconds(60))

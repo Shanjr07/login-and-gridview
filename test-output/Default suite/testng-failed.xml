@@ -3,56 +3,18 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.eit.stepdefinition.Grid_View_page_test_case">
+      <class name="com.eit.stepdefinition.Login_page_test_case">
         <methods>
-          <include name="English_Login_and_Gridview_Verifying_Today_Status_chart_ContextMenu_Download_jpeg_option"/>
-          <include name="English_Login_and_Gridview_checking_Filter_option_Operator_textbox"/>
-          <include name="English_Login_and_Gridview_Vehicle_search_valid_name"/>
-          <include name="English_Login_and_Gridview_Operator_tab_OFFlineOption"/>
-          <include name="English_Login_and_Gridview_Vehicle_search_invalid_name"/>
-          <include name="English_Login_and_Gridview_Verifying_History_module_stop_button"/>
-          <include name="English_Login_and_Gridview_Verifying_Today_Status_chart_ContextMenu_Download_png_option"/>
-          <include name="English_Login_and_Gridview_Operator_tab_AllOption"/>
-          <include name="English_Login_and_Gridview_checking_Offline_option"/>
-          <include name="English_Login_and_Gridview_checking_Filter_option_Fleet_Manager_textbox"/>
-          <include name="English_Login_and_Gridview_Refresh"/>
-          <include name="English_Login_and_Gridview_Operator_tab_StopOption"/>
-          <include name="English_Login_and_Gridview_checking_Filter_option_plateno"/>
-          <include name="English_Login_and_Gridview_Operator_tab_OverSpeedOption"/>
-          <include name="browse"/>
-          <include name="English_Login_and_Gridview_Verifying_History_module_pause_button"/>
-          <include name="English_Login_and_Gridview_Verifying_Speed_trend_chart_ContextMenu_Download_png_option"/>
-          <include name="English_Login_and_Gridview_Verifying_maximize_and_Minimize_button"/>
-          <include name="English_Login_and_Gridview_checking_Filter_option_Status_textbox"/>
-          <include name="English_Login_and_Gridview_Verifying_Today_Status_chart_ContextMenu_Download_pdf_option"/>
-          <include name="English_Login_and_Gridview_checking_LIVE_option"/>
-          <include name="English_Login_and_Gridview_checking_Yet_To_Transmit_option"/>
-          <include name="English_Login_and_Gridview_NearBy_Module"/>
-          <include name="English_Login_and_Gridview_Verifying_Lat_Lang_LIVE_module"/>
-          <include name="English_Login_and_Gridview_checking_idel_option"/>
-          <include name="English_Login_and_Gridview_OperatorModule_Search_invalid_operator"/>
-          <include name="English_Login_and_Gridview_Operator_tab_RunningOption"/>
-          <include name="English_Login_and_Gridview_Verifying_History_module_Enable_Running_checkbox"/>
-          <include name="English_Login_and_Gridview_Verifying_Lat_Lang_Live_Data_module"/>
-          <include name="English_Login_and_Gridview_Operator_tab_TowedOption"/>
-          <include name="English_Login_and_Gridview_OperatorModule_Search_valid_operator"/>
-          <include name="English_Login_and_Gridview_Verifying_Live_Data_module"/>
-          <include name="English_Login_and_Gridview_checking_Online_option"/>
-          <include name="English_Login_and_Gridview_Operator_tab_ONlineOption"/>
-          <include name="English_Login_and_Gridview_checking_Alert_option"/>
-          <include name="English_Login_and_Gridview_checking_Towed_option"/>
-          <include name="English_Login_and_Gridview_Verifying_History_module_Disable_Running_checkbox"/>
-          <include name="close"/>
-          <include name="English_Login_and_Gridview_Operator_tab_IdelOption"/>
-          <include name="English_Login_and_Gridview_Verifying_Speed_trend_chart_ContextMenu_Download_jpeg_option"/>
-          <include name="English_Login_and_Gridview_Operator_tab_YetToTramsmitOption"/>
-          <include name="English_Login_and_Gridview_Verifying_Speed_trend_chart_ContextMenu_Download_pdf_option"/>
-          <include name="English_Login_and_Gridview_checking_Maintain_option"/>
-          <include name="English_Login_and_Gridview_Verifying_History_module_playbutton"/>
-          <include name="English_Login_and_Gridview_Verifying_Vehicle_detail_module"/>
-          <include name="English_Login_and_Gridview_checking_Overspeed_option"/>
+          <include name="English_Valid_Login"/>
+          <include name="Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login"/>
+          <include name="Arabic_Valid_Login"/>
+          <include name="English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login"/>
+          <include name="English_and_Arabic_Login_RememeberMe"/>
+          <include name="English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name"/>
+          <include name="English_Login_with_incorrect_Password"/>
+          <include name="English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name"/>
         </methods>
-      </class> <!-- com.eit.stepdefinition.Grid_View_page_test_case -->
+      </class> <!-- com.eit.stepdefinition.Login_page_test_case -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

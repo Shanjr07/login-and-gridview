@@ -10,7 +10,7 @@
   <parameter name="EmailID_Invalid" value="CCCCC"/>
   <parameter name="CorporateId" value="demo"/>
   <parameter name="Username_Invalid" value="BBBB"/>
-  <parameter name="Url" value="http://spqa.thegoldenelement.com/"/>
+  <parameter name="Url" value="https://gps.thegoldenelement.com/"/>
   <listeners>
     <listener class-name="com.eit.listner.EmailREport"/>
     <listener class-name="com.eit.listner.MyListner"/>
@@ -21,7 +21,7 @@
       <class name="com.eit.stepdefinition.Login_page_test_case">
         <methods>
           <include name="Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login" invocation-numbers="0 0"/>
-          <include name="Arabic_Valid_Login" invocation-numbers="0"/>
+          <include name="Arabic_Valid_Login" invocation-numbers="0 0"/>
           <include name="English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login" invocation-numbers="0 0"/>
           <include name="English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name" invocation-numbers="0 0"/>
           <include name="English_Login_with_incorrect_Password" invocation-numbers="0 0"/>

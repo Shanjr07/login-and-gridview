@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 11 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 12 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">14 methods, 11 failed,   3 passed</span>
+                    <span class="method-stats">14 methods, 12 failed,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -107,6 +107,11 @@
                       <span>
                         <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Eit-Track" title="com.eit.stepdefinition.Login_page_test_case" hash-for-method="Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(demo, demo-ca, Jagadeshan@eitworks.com)">Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(demo, demo-ca, Jagadeshan@eitworks.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Eit-Track" title="com.eit.stepdefinition.Login_page_test_case" hash-for-method="Arabic_Valid_Login(demo, demo-ca, 12345)">Arabic_Valid_Login(demo, demo-ca, 12345)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -165,11 +170,6 @@
                     <div class="method-list-content passed suite-Eit-Track">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Eit-Track" title="com.eit.stepdefinition.Login_page_test_case" hash-for-method="Arabic_Valid_Login(demo, demo-ca, 12345)">Arabic_Valid_Login(demo, demo-ca, 12345)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Eit-Track" title="com.eit.stepdefinition.Login_page_test_case" hash-for-method="English_Valid_Login(demo, demo-ca, 12345)">English_Valid_Login(demo, demo-ca, 12345)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -202,9 +202,26 @@
                   </a> <!-- Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(demo, demo-ca, Jagadeshan@eitworks.com) -->
                   <span class="method-name">Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login</span>
                   <span class="parameters">(demo, demo-ca, Jagadeshan@eitworks.com)</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at com.eit.stepdefinition.Login_page_test_case.Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(Login_page_test_case.java:235)
-... Removed 28 stack frames
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=80.0.3987.122)
+Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
+System info: host: &apos;DESKTOP-D4SHPE1&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\EIT-JA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55889}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: da2421bd06c12506006d5fa62a286ce8
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:107)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
+	at com.eit.resource.base.send(base.java:59)
+	at com.eit.stepdefinition.Login_page_test_case.Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(Login_page_test_case.java:238)
+... Removed 31 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -215,7 +232,7 @@
                   <span class="method-name">Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login</span>
                   <span class="parameters">(demo, demo-ca, Jagadeshan@eitworks.com)</span>
                   <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at com.eit.stepdefinition.Login_page_test_case.Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(Login_page_test_case.java:235)
+	at com.eit.stepdefinition.Login_page_test_case.Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(Login_page_test_case.java:242)
 ... Removed 28 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -226,28 +243,141 @@
                   </a> <!-- Arabic_Valid_Login(demo, demo-ca, 12345) -->
                   <span class="method-name">Arabic_Valid_Login</span>
                   <span class="parameters">(demo, demo-ca, 12345)</span>
-                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=78.0.3904.108)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+                  <div class="stack-trace">org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
 Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
-System info: host: &apos;DESKTOP-D4SHPE1&apos;, ip: &apos;10.10.10.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+System info: host: &apos;DESKTOP-D4SHPE1&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:326)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:148)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:257)
+	at org.openqa.selenium.json.JsonOutput.lambda$null$21(JsonOutput.java:161)
+	at java.util.LinkedHashMap$LinkedValues.forEach(LinkedHashMap.java:608)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:161)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:257)
+	at org.openqa.selenium.json.JsonOutput.lambda$null$23(JsonOutput.java:170)
+	at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:65)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:169)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:257)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:248)
+	at org.openqa.selenium.json.Json.toJson(Json.java:42)
+	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:233)
+	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:122)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:646)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:613)
+	at com.eit.resource.base.clickaction(base.java:67)
+	at com.eit.stepdefinition.Login_page_test_case.Arabic_Valid_Login(Login_page_test_case.java:97)
+	Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
+Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
+System info: host: &apos;DESKTOP-D4SHPE1&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: driver.version: RemoteWebDriver
+		at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:273)
+		at org.openqa.selenium.json.Json.toJson(Json.java:44)
+		... 33 more
+	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:322)
+	... 45 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#loginbtn&quot;}
+  (Session info: chrome=80.0.3987.122)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
+System info: host: &apos;DESKTOP-D4SHPE1&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\EIT-JA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59977}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e767fe4ff8044d9151a4ddb93b081d68
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\EIT-JA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55476}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3b1f0cfeed885f80c483bd946a9c271e
+*** Element info: {Using=id, value=loginbtn}
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)
-	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:138)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-	at com.sun.proxy.$Proxy10.getAttribute(Unknown Source)
-	at org.openqa.selenium.support.ui.Select.&lt;init&gt;(Select.java:54)
-	at com.eit.resource.base.langu(base.java:55)
-	at com.eit.stepdefinition.Login_page_test_case.Arabic_Valid_Login(Login_page_test_case.java:88)
-... Removed 32 stack frames
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:375)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy10.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:204)
+	at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:155)
+	at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:73)
+	at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:82)
+	... 50 more
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Arabic_Valid_Login(demo, demo-ca, 12345)">
+                  </a> <!-- Arabic_Valid_Login(demo, demo-ca, 12345) -->
+                  <span class="method-name">Arabic_Valid_Login</span>
+                  <span class="parameters">(demo, demo-ca, 12345)</span>
+                  <div class="stack-trace">org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
+System info: host: &apos;DESKTOP-D4SHPE1&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:326)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:148)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:257)
+	at org.openqa.selenium.json.JsonOutput.lambda$null$21(JsonOutput.java:161)
+	at java.util.LinkedHashMap$LinkedValues.forEach(LinkedHashMap.java:608)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:161)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:257)
+	at org.openqa.selenium.json.JsonOutput.lambda$null$23(JsonOutput.java:170)
+	at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:65)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:169)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:257)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:248)
+	at org.openqa.selenium.json.Json.toJson(Json.java:42)
+	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:233)
+	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:122)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:646)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:613)
+	at com.eit.resource.base.clickaction(base.java:67)
+	at com.eit.stepdefinition.Login_page_test_case.Arabic_Valid_Login(Login_page_test_case.java:97)
+	Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
+Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
+System info: host: &apos;DESKTOP-D4SHPE1&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: driver.version: RemoteWebDriver
+		at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:273)
+		at org.openqa.selenium.json.Json.toJson(Json.java:44)
+		... 33 more
+	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:322)
+	... 45 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#loginbtn&quot;}
+  (Session info: chrome=80.0.3987.122)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
+System info: host: &apos;DESKTOP-D4SHPE1&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\EIT-JA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 380d7063ed396a05366ca57804674133
+*** Element info: {Using=id, value=loginbtn}
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:375)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy10.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:204)
+	at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:155)
+	at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:73)
+	at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:82)
+	... 50 more
+... Removed 33 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -257,8 +387,8 @@ Session ID: e767fe4ff8044d9151a4ddb93b081d68
                   </a> <!-- English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(demo, demo-ca, Jagadeshan@eitworks.com) -->
                   <span class="method-name">English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login</span>
                   <span class="parameters">(demo, demo-ca, Jagadeshan@eitworks.com)</span>
-                  <div class="stack-trace">java.lang.AssertionError: English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login Expected Result : it should show [Password has been sent to your Email Successfully .  Please check your Inbox] but it shows Please Enter the Correct Registered Email Id expected [true] but found [false]
-	at com.eit.stepdefinition.Login_page_test_case.English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(Login_page_test_case.java:177)
+                  <div class="stack-trace">java.lang.AssertionError: English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login Expected Result : it should show [Please Enter the Correct Registered Email Id] but it shows Enter Registered Email Id expected [true] but found [false]
+	at com.eit.stepdefinition.Login_page_test_case.English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(Login_page_test_case.java:176)
 ... Removed 27 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -269,8 +399,8 @@ Session ID: e767fe4ff8044d9151a4ddb93b081d68
                   </a> <!-- English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(demo, demo-ca, Jagadeshan@eitworks.com) -->
                   <span class="method-name">English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login</span>
                   <span class="parameters">(demo, demo-ca, Jagadeshan@eitworks.com)</span>
-                  <div class="stack-trace">java.lang.AssertionError: English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login Expected Result : it should show [Password has been sent to your Email Successfully .  Please check your Inbox] but it shows Please Enter the Correct Registered Email Id expected [true] but found [false]
-	at com.eit.stepdefinition.Login_page_test_case.English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(Login_page_test_case.java:177)
+                  <div class="stack-trace">java.lang.AssertionError: English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login Expected Result : it should show [Please Enter the Correct Registered Email Id] but it shows Enter Registered Email Id expected [true] but found [false]
+	at com.eit.stepdefinition.Login_page_test_case.English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(Login_page_test_case.java:176)
 ... Removed 27 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -281,8 +411,8 @@ Session ID: e767fe4ff8044d9151a4ddb93b081d68
                   </a> <!-- English_Login_with_incorrect_Password(demo, demo-ca, CCCCC) -->
                   <span class="method-name">English_Login_with_incorrect_Password</span>
                   <span class="parameters">(demo, demo-ca, CCCCC)</span>
-                  <div class="stack-trace">java.lang.AssertionError: English_Login_with_incorrect_Password = Expected result : Enter Correct Password -&gt;But it shows :Enter valid Password expected [true] but found [false]
-	at com.eit.stepdefinition.Login_page_test_case.English_Login_with_incorrect_Password(Login_page_test_case.java:58)
+                  <div class="stack-trace">java.lang.AssertionError: English_Login_with_incorrect_Password = Expected result : Enter Correct Password -&gt;But it shows :Invalid Credential expected [true] but found [false]
+	at com.eit.stepdefinition.Login_page_test_case.English_Login_with_incorrect_Password(Login_page_test_case.java:60)
 ... Removed 27 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -293,8 +423,8 @@ Session ID: e767fe4ff8044d9151a4ddb93b081d68
                   </a> <!-- English_Login_with_incorrect_Password(demo, demo-ca, CCCCC) -->
                   <span class="method-name">English_Login_with_incorrect_Password</span>
                   <span class="parameters">(demo, demo-ca, CCCCC)</span>
-                  <div class="stack-trace">java.lang.AssertionError: English_Login_with_incorrect_Password = Expected result : Enter Correct Password -&gt;But it shows :Enter valid Password expected [true] but found [false]
-	at com.eit.stepdefinition.Login_page_test_case.English_Login_with_incorrect_Password(Login_page_test_case.java:58)
+                  <div class="stack-trace">java.lang.AssertionError: English_Login_with_incorrect_Password = Expected result : Enter Correct Password -&gt;But it shows :Invalid Credential expected [true] but found [false]
+	at com.eit.stepdefinition.Login_page_test_case.English_Login_with_incorrect_Password(Login_page_test_case.java:60)
 ... Removed 27 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -305,8 +435,8 @@ Session ID: e767fe4ff8044d9151a4ddb93b081d68
                   </a> <!-- English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name(AAAA, demo-ca, Jagadeshan@eitworks.com) -->
                   <span class="method-name">English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name</span>
                   <span class="parameters">(AAAA, demo-ca, Jagadeshan@eitworks.com)</span>
-                  <div class="stack-trace">java.lang.AssertionError: English_ForgetPassword_with_incorrect_Corporate_ID_or_User_name Expected result :It should show [Enter Correct Corporate Id or User name] but it shows Enter the Correct Corporate Id expected [true] but found [false]
-	at com.eit.stepdefinition.Login_page_test_case.English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name(Login_page_test_case.java:139)
+                  <div class="stack-trace">java.lang.AssertionError: English_ForgetPassword_with_incorrect_Corporate_ID_or_User_name Expected result :It should show [Enter Correct Corporate Id or User name] but it shows Invalid Credential expected [true] but found [false]
+	at com.eit.stepdefinition.Login_page_test_case.English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name(Login_page_test_case.java:145)
 ... Removed 27 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -317,8 +447,8 @@ Session ID: e767fe4ff8044d9151a4ddb93b081d68
                   </a> <!-- English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name(AAAA, demo-ca, Jagadeshan@eitworks.com) -->
                   <span class="method-name">English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name</span>
                   <span class="parameters">(AAAA, demo-ca, Jagadeshan@eitworks.com)</span>
-                  <div class="stack-trace">java.lang.AssertionError: English_ForgetPassword_with_incorrect_Corporate_ID_or_User_name Expected result :It should show [Enter Correct Corporate Id or User name] but it shows Enter the Correct Corporate Id expected [true] but found [false]
-	at com.eit.stepdefinition.Login_page_test_case.English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name(Login_page_test_case.java:139)
+                  <div class="stack-trace">java.lang.AssertionError: English_ForgetPassword_with_incorrect_Corporate_ID_or_User_name Expected result :It should show [Enter Correct Corporate Id or User name] but it shows Invalid Credential expected [true] but found [false]
+	at com.eit.stepdefinition.Login_page_test_case.English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name(Login_page_test_case.java:145)
 ... Removed 27 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -329,8 +459,8 @@ Session ID: e767fe4ff8044d9151a4ddb93b081d68
                   </a> <!-- English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name(AAAA, demo-ca, 12345) -->
                   <span class="method-name">English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name</span>
                   <span class="parameters">(AAAA, demo-ca, 12345)</span>
-                  <div class="stack-trace">java.lang.AssertionError: English_Login_with_incorrect_Corporate_ID_or_User_name = Expected Result:Enter Correct CorporateID or User name but it shows -&gt;Enter Valid Corporate Id expected [true] but found [false]
-	at com.eit.stepdefinition.Login_page_test_case.English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name(Login_page_test_case.java:35)
+                  <div class="stack-trace">java.lang.AssertionError: English_Login_with_incorrect_Corporate_ID_or_User_name = Expected Result:Enter Correct CorporateID or User name but it shows -&gt;Invalid Credential expected [true] but found [false]
+	at com.eit.stepdefinition.Login_page_test_case.English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name(Login_page_test_case.java:36)
 ... Removed 27 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -341,8 +471,8 @@ Session ID: e767fe4ff8044d9151a4ddb93b081d68
                   </a> <!-- English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name(AAAA, demo-ca, 12345) -->
                   <span class="method-name">English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name</span>
                   <span class="parameters">(AAAA, demo-ca, 12345)</span>
-                  <div class="stack-trace">java.lang.AssertionError: English_Login_with_incorrect_Corporate_ID_or_User_name = Expected Result:Enter Correct CorporateID or User name but it shows -&gt;Enter Valid Corporate Id expected [true] but found [false]
-	at com.eit.stepdefinition.Login_page_test_case.English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name(Login_page_test_case.java:35)
+                  <div class="stack-trace">java.lang.AssertionError: English_Login_with_incorrect_Corporate_ID_or_User_name = Expected Result:Enter Correct CorporateID or User name but it shows -&gt;Invalid Credential expected [true] but found [false]
+	at com.eit.stepdefinition.Login_page_test_case.English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name(Login_page_test_case.java:36)
 ... Removed 27 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -355,14 +485,6 @@ Session ID: e767fe4ff8044d9151a4ddb93b081d68
               <span class="class-name">com.eit.stepdefinition.Login_page_test_case</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="Arabic_Valid_Login(demo, demo-ca, 12345)">
-                  </a> <!-- Arabic_Valid_Login(demo, demo-ca, 12345) -->
-                  <span class="method-name">Arabic_Valid_Login</span>
-                  <span class="parameters">(demo, demo-ca, 12345)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="English_Valid_Login(demo, demo-ca, 12345)">
@@ -400,7 +522,7 @@ Session ID: e767fe4ff8044d9151a4ddb93b081d68
   &lt;parameter name=&quot;EmailID_Invalid&quot; value=&quot;CCCCC&quot;/&gt;
   &lt;parameter name=&quot;CorporateId&quot; value=&quot;demo&quot;/&gt;
   &lt;parameter name=&quot;Username_Invalid&quot; value=&quot;BBBB&quot;/&gt;
-  &lt;parameter name=&quot;Url&quot; value=&quot;http://spqa.thegoldenelement.com/&quot;/&gt;
+  &lt;parameter name=&quot;Url&quot; value=&quot;https://gps.thegoldenelement.com/&quot;/&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.eit.listner.EmailREport&quot;/&gt;
     &lt;listener class-name=&quot;com.eit.listner.MyListner&quot;/&gt;
@@ -450,61 +572,61 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(14);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login')
+data.setCell(0, 1, 'English_and_Arabic_Login_RememeberMe')
 data.setCell(0, 2, 'com.eit.stepdefinition.Login_page_test_case')
-data.setCell(0, 3, 21264);
+data.setCell(0, 3, 24205);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login')
+data.setCell(1, 1, 'English_Valid_Login')
 data.setCell(1, 2, 'com.eit.stepdefinition.Login_page_test_case')
-data.setCell(1, 3, 21086);
+data.setCell(1, 3, 11461);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'English_and_Arabic_Login_RememeberMe')
+data.setCell(2, 1, 'English_Login_with_incorrect_Password')
 data.setCell(2, 2, 'com.eit.stepdefinition.Login_page_test_case')
-data.setCell(2, 3, 7600);
+data.setCell(2, 3, 3069);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login')
+data.setCell(3, 1, 'English_Login_with_incorrect_Password')
 data.setCell(3, 2, 'com.eit.stepdefinition.Login_page_test_case')
-data.setCell(3, 3, 7415);
+data.setCell(3, 3, 3005);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login')
+data.setCell(4, 1, 'English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name')
 data.setCell(4, 2, 'com.eit.stepdefinition.Login_page_test_case')
-data.setCell(4, 3, 6059);
+data.setCell(4, 3, 2954);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name')
+data.setCell(5, 1, 'English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login')
 data.setCell(5, 2, 'com.eit.stepdefinition.Login_page_test_case')
-data.setCell(5, 3, 5903);
+data.setCell(5, 3, 2838);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'English_Login_with_incorrect_Password')
+data.setCell(6, 1, 'English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name')
 data.setCell(6, 2, 'com.eit.stepdefinition.Login_page_test_case')
-data.setCell(6, 3, 4614);
+data.setCell(6, 3, 2788);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name')
+data.setCell(7, 1, 'Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login')
 data.setCell(7, 2, 'com.eit.stepdefinition.Login_page_test_case')
-data.setCell(7, 3, 4316);
+data.setCell(7, 3, 2756);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'English_Valid_Login')
+data.setCell(8, 1, 'English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name')
 data.setCell(8, 2, 'com.eit.stepdefinition.Login_page_test_case')
-data.setCell(8, 3, 3995);
+data.setCell(8, 3, 2628);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name')
+data.setCell(9, 1, 'English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name')
 data.setCell(9, 2, 'com.eit.stepdefinition.Login_page_test_case')
-data.setCell(9, 3, 3791);
+data.setCell(9, 3, 2483);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'Arabic_Valid_Login')
+data.setCell(10, 1, 'English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login')
 data.setCell(10, 2, 'com.eit.stepdefinition.Login_page_test_case')
-data.setCell(10, 3, 3218);
+data.setCell(10, 3, 2446);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'English_Login_with_incorrect_Password')
+data.setCell(11, 1, 'Arabic_Valid_Login')
 data.setCell(11, 2, 'com.eit.stepdefinition.Login_page_test_case')
-data.setCell(11, 3, 3128);
+data.setCell(11, 3, 1810);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name')
+data.setCell(12, 1, 'Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login')
 data.setCell(12, 2, 'com.eit.stepdefinition.Login_page_test_case')
-data.setCell(12, 3, 2963);
+data.setCell(12, 3, 1808);
 data.setCell(13, 0, 13)
 data.setCell(13, 1, 'Arabic_Valid_Login')
 data.setCell(13, 2, 'com.eit.stepdefinition.Login_page_test_case')
-data.setCell(13, 3, 1451);
+data.setCell(13, 3, 1756);
 window.suiteTableData['Eit-Track']= { tableData: data, tableDiv: 'times-div-Eit-Track'}
 return data;
 }
@@ -537,194 +659,196 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.eit.stepdefinition.Login_page_test_case</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">browse(http://spqa.thegoldenelement.com/)</span>
+                <span class="method-name">browse(https://gps.thegoldenelement.com/)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name(AAAA, demo-ca, 12345)</span>
-                <span class="method-start">13553 ms</span>
+                <span class="method-start">23842 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closee</span>
-                <span class="method-start">17113 ms</span>
+                <span class="method-start">27253 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">browse(http://spqa.thegoldenelement.com/)</span>
-                <span class="method-start">17995 ms</span>
+                <span class="method-name">browse(https://gps.thegoldenelement.com/)</span>
+                <span class="method-start">27944 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name(AAAA, demo-ca, 12345)</span>
-                <span class="method-start">25108 ms</span>
+                <span class="method-start">52862 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closee</span>
-                <span class="method-start">29289 ms</span>
+                <span class="method-start">56395 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">browse(http://spqa.thegoldenelement.com/)</span>
-                <span class="method-start">30573 ms</span>
+                <span class="method-name">browse(https://gps.thegoldenelement.com/)</span>
+                <span class="method-start">57098 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">English_Login_with_incorrect_Password(demo, demo-ca, CCCCC)</span>
-                <span class="method-start">38478 ms</span>
+                <span class="method-start">83532 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closee</span>
-                <span class="method-start">43419 ms</span>
+                <span class="method-start">87068 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">browse(http://spqa.thegoldenelement.com/)</span>
-                <span class="method-start">44117 ms</span>
+                <span class="method-name">browse(https://gps.thegoldenelement.com/)</span>
+                <span class="method-start">87755 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">English_Login_with_incorrect_Password(demo, demo-ca, CCCCC)</span>
-                <span class="method-start">53408 ms</span>
+                <span class="method-start">114748 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closee</span>
-                <span class="method-start">56873 ms</span>
+                <span class="method-start">118359 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">browse(http://spqa.thegoldenelement.com/)</span>
-                <span class="method-start">57584 ms</span>
+                <span class="method-name">browse(https://gps.thegoldenelement.com/)</span>
+                <span class="method-start">119098 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">English_Valid_Login(demo, demo-ca, 12345)</span>
-                <span class="method-start">66477 ms</span>
+                <span class="method-start">148956 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closee</span>
-                <span class="method-start">70473 ms</span>
+                <span class="method-start">160418 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">browse(http://spqa.thegoldenelement.com/)</span>
-                <span class="method-start">71205 ms</span>
+                <span class="method-name">browse(https://gps.thegoldenelement.com/)</span>
+                <span class="method-start">161148 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">Arabic_Valid_Login(demo, demo-ca, 12345)</span>
-                <span class="method-start">78797 ms</span>
+                <span class="method-start">179296 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closee</span>
-                <span class="method-start">80664 ms</span>
+                <span class="method-start">181660 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">browse(http://spqa.thegoldenelement.com/)</span>
-                <span class="method-start">81357 ms</span>
+                <span class="method-name">browse(https://gps.thegoldenelement.com/)</span>
+                <span class="method-start">182342 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">Arabic_Valid_Login(demo, demo-ca, 12345)</span>
-                <span class="method-start">90111 ms</span>
+                <span class="method-start">202621 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closee</span>
-                <span class="method-start">93331 ms</span>
+                <span class="method-start">204932 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">browse(http://spqa.thegoldenelement.com/)</span>
-                <span class="method-start">94045 ms</span>
+                <span class="method-name">browse(https://gps.thegoldenelement.com/)</span>
+                <span class="method-start">205608 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">English_and_Arabic_Login_RememeberMe(demo, demo-ca, 12345)</span>
-                <span class="method-start">100235 ms</span>
+                <span class="method-start">223034 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closee</span>
-                <span class="method-start">107836 ms</span>
+                <span class="method-start">247241 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">browse(http://spqa.thegoldenelement.com/)</span>
-                <span class="method-start">108575 ms</span>
+                <span class="method-name">browse(https://gps.thegoldenelement.com/)</span>
+                <span class="method-start">247952 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name(AAAA, demo-ca, Jagadeshan@eitworks.com)</span>
-                <span class="method-start">114863 ms</span>
+                <span class="method-start">266164 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closee</span>
-                <span class="method-start">119581 ms</span>
+                <span class="method-start">269153 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">browse(http://spqa.thegoldenelement.com/)</span>
-                <span class="method-start">120295 ms</span>
+                <span class="method-name">browse(https://gps.thegoldenelement.com/)</span>
+                <span class="method-start">269836 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name(AAAA, demo-ca, Jagadeshan@eitworks.com)</span>
-                <span class="method-start">126251 ms</span>
+                <span class="method-start">289141 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closee</span>
-                <span class="method-start">132508 ms</span>
+                <span class="method-start">292277 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">browse(http://spqa.thegoldenelement.com/)</span>
-                <span class="method-start">133228 ms</span>
+                <span class="method-name">browse(https://gps.thegoldenelement.com/)</span>
+                <span class="method-start">292965 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(demo, demo-ca, Jagadeshan@eitworks.com)</span>
-                <span class="method-start">141752 ms</span>
+                <span class="method-start">311977 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closee</span>
-                <span class="method-start">163382 ms</span>
+                <span class="method-start">315376 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">browse(http://spqa.thegoldenelement.com/)</span>
-                <span class="method-start">164169 ms</span>
+                <span class="method-name">browse(https://gps.thegoldenelement.com/)</span>
+                <span class="method-start">316068 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(demo, demo-ca, Jagadeshan@eitworks.com)</span>
-                <span class="method-start">171874 ms</span>
+                <span class="method-start">335938 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closee</span>
-                <span class="method-start">193291 ms</span>
+                <span class="method-start">338943 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">browse(http://spqa.thegoldenelement.com/)</span>
-                <span class="method-start">194007 ms</span>
+                <span class="method-name">browse(https://gps.thegoldenelement.com/)</span>
+                <span class="method-start">339632 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(demo, demo-ca, Jagadeshan@eitworks.com)</span>
-                <span class="method-start">200311 ms</span>
+                <span class="method-start">358282 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closee</span>
-                <span class="method-start">208065 ms</span>
+                <span class="method-start">361633 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">browse(http://spqa.thegoldenelement.com/)</span>
-                <span class="method-start">208771 ms</span>
+                <span class="method-name">browse(https://gps.thegoldenelement.com/)</span>
+                <span class="method-start">362301 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(demo, demo-ca, Jagadeshan@eitworks.com)</span>
-                <span class="method-start">217620 ms</span>
+                <span class="method-start">381223 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closee</span>
-                <span class="method-start">224028 ms</span>
+                <span class="method-start">383559 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

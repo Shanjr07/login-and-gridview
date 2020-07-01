@@ -23,13 +23,14 @@ public class Login_page_test_case extends base {
    @Test(priority=1)
    public void English_and_Arabic_Login_with_incorrect_Corporate_ID_or_User_name(String s1,String s2,String s3)  {
 	   Loginpage page1= new Loginpage();
+	   waits(page1.getCoopId());
 	   langu(page1.getLang()).selectByIndex(1);
 	   waits(page1.getCoopId());
 	   send(s1,page1.getCoopId());
 	   send(s2,page1.getUsername());
 	   send(s3,page1.getPassword());
 	   page1.getLogin().click();
-	  String textvalue="Enter Correct CorporateID or User name";
+	   String textvalue="Enter Correct CorporateID or User name";
 	  tablewait();
 	   String text = page1.getErrormess().getAttribute("textContent");
 	   Assert.assertTrue(text.equals(textvalue),"English_Login_with_incorrect_Corporate_ID_or_User_name = Expected Result:Enter Correct CorporateID or User name but it shows ->"+text);	   
@@ -43,17 +44,18 @@ public class Login_page_test_case extends base {
 	   String text2 = page1.getErrormess().getAttribute("textContent");
 	   Assert.assertTrue(text2.equals("من فضلك ادخل هوية صالحة "),"Arabic_Login_with_incorrect_Corporate_ID_or_User_nameExpected result  : أدخل معرف الشركة أو اسم المستخدم صالح  it shows ->"+text2);	   
    }
-	@Parameters({ "CorporateId","Username","password_Invalid" })
+   @Parameters({ "CorporateId","Username","password_Invalid" })
    @Test(priority=2)
    public void English_Login_with_incorrect_Password(String s1,String s2,String s3) throws InterruptedException {
 	   Loginpage page1= new Loginpage();
+	   waits(page1.getCoopId());
 	   langu(page1.getLang()).selectByIndex(1);
 	   waits(page1.getCoopId());
 	   send(s1,page1.getCoopId());
 	   send(s2,page1.getUsername());
 	   send(s3,page1.getPassword());
 	   page1.getLogin().click();
-	   Thread.sleep(1450);
+	   tablewait();
 	   String text = page1.getErrormess().getAttribute("textContent");
 	   Assert.assertTrue(text.equals("Enter Correct Password"),"English_Login_with_incorrect_Password = Expected result : Enter Correct Password ->But it shows :"+text);	   
 	   langu(page1.getLang()).selectByIndex(2);
@@ -62,7 +64,7 @@ public class Login_page_test_case extends base {
 	   send(s2,page1.getUsername());
 	   send(s3,page1.getPassword());
 	   page1.getAralogin().click();
-	   Thread.sleep(1000);
+	   tablewait();
 	   String text2 = page1.getErrormess().getAttribute("textContent");
 	   Assert.assertTrue(text2.equals("من فضلك ادخل رقم سري صحيح"),"Arabic_Login_with_incorrect_Password = Expected result : من فضلك ادخل رقم سري صحيح ->But it Shows :"+text2);
 	   }	   
@@ -71,6 +73,7 @@ public class Login_page_test_case extends base {
    public void English_Valid_Login(String s1,String s2,String s3) {
 	   Loginpage pagea1= new Loginpage();
 	   GridViewpage page2 = new GridViewpage();
+	   waits(pagea1.getCoopId());
 	   langu(pagea1.getLang()).selectByIndex(1);
 	   waits(pagea1.getCoopId());
 	   send(s1,pagea1.getCoopId());
@@ -85,6 +88,7 @@ public class Login_page_test_case extends base {
 	   public void Arabic_Valid_Login(String s1,String s2,String s3) {
 		   Loginpage page1a= new Loginpage();
 		   GridViewpage page2 = new GridViewpage();
+		   waits(page1a.getCoopId());
 		   langu(page1a.getLang()).selectByIndex(2);
 		   waits(page1a.getCoopId());
 		   send(s1,page1a.getCoopId());
@@ -99,6 +103,7 @@ public class Login_page_test_case extends base {
 	   public void English_and_Arabic_Login_RememeberMe(String s1,String s2,String s3){
 	   Loginpage page1= new Loginpage();
 	   GridViewpage page2 = new GridViewpage();
+	   waits(page1.getCoopId());
 	   langu(page1.getLang()).selectByIndex(1);
 	   waits(page1.getCoopId());
 	   send(s1,page1.getCoopId());
@@ -127,6 +132,7 @@ public class Login_page_test_case extends base {
 	     @Test(priority=6)
 	   public void English_and_Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name(String s1,String s2,String s3) throws InterruptedException {
 		   Loginpage page1= new Loginpage();
+		   waits(page1.getCoopId());
 		   langu(page1.getLang()).selectByIndex(1);
 		   waits(page1.getCoopId());
 		   send(s1,page1.getCoopId());
@@ -134,7 +140,7 @@ public class Login_page_test_case extends base {
 		   clickaction(page1.getForget());
 		   send(s3,page1.getEmail());
 		   clickaction(page1.getSubmit());
-		   Thread.sleep(1000);
+		   tablewait();
 		   String text = page1.getErrormess().getAttribute("textContent");
 		   Assert.assertTrue(text.equals("Enter Correct Corporate Id or User name"),"English_ForgetPassword_with_incorrect_Corporate_ID_or_User_name Expected result :It should show [Enter Correct Corporate Id or User name] but it shows "+text);
 		   langu(page1.getLang()).selectByIndex(2);
@@ -145,7 +151,7 @@ public class Login_page_test_case extends base {
 		   clickaction(page1.getForget());
 		   send(s3,page1.getEmail());
 		   clickaction(page1.getSubmit());
-		   Thread.sleep(1000);
+		   tablewait();
 		   String text2 = page1.getErrormess().getAttribute("textContent");
 		   Assert.assertTrue(text2.equals("أدخل معرف الشركة صالح"),"Arabic_ForgetPassword_with_incorrect_Corporate_ID_or_User_name Expected result :It should show [ أدخل معرف الشركة أو اسم المستخدم صالح ] but it shows "+text2);	   
 		   } 
@@ -153,7 +159,7 @@ public class Login_page_test_case extends base {
 	   @Test(priority=7)
 	   public void English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(String s1,String s2,String s3) throws InterruptedException, AWTException 
 	   {   Loginpage page1= new Loginpage();
-		   
+	   waits(page1.getCoopId());
 		   langu(page1.getLang()).selectByIndex(1);
 		   waits(page1.getCoopId());
 		   send(s1,page1.getCoopId());
@@ -165,14 +171,14 @@ public class Login_page_test_case extends base {
 		    	else if(i==2) {mail="ghi@gmail.com";}
 		    send(mail,page1.getEmail());
 			clickaction(page1.getSubmit());
-			Thread.sleep(4000);
+			tablewait();
 			String text = page1.getErrormess().getAttribute("textContent");
 		    Assert.assertTrue(text.equals("Please Enter the Correct Registered Email Id"),"English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login Expected Result : it should show [Please Enter the Correct Registered Email Id] but it shows "+text);
 		    page1.getEmail().clear();
 		   }
 		   send(s3,page1.getEmail());
 			clickaction(page1.getSubmit());
-			Thread.sleep(5000);
+			tablewait();
 			String text = page1.getErrormess().getAttribute("textContent");
 		    Assert.assertTrue(text.equals("Password has been sent to your Email Successfully .  Please check your Inbox"),"English_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login Expected Result : it should show [Password has been sent to your Email Successfully .  Please check your Inbox] but it shows "+text);
 		    URLmail();
@@ -219,6 +225,7 @@ public class Login_page_test_case extends base {
 	   public void Arabic_Forget_password_Entering_invalid_Email_ID_and_clicking_Submit_button_3_times_sequentially_and_after_that_enter_valid_Email_Id_and_click_Submit_enter_the_received_password_and_Click_login(String s1,String s2,String s3) 
 			   throws InterruptedException, AWTException {
 		   Loginpage apage1= new Loginpage();
+		   waits(apage1.getCoopId());
 		   langu(apage1.getLang()).selectByIndex(2);
 		   waits(apage1.getCoopId());
 		   send(s1,apage1.getCoopId());
@@ -230,14 +237,14 @@ public class Login_page_test_case extends base {
 		    	else if(i==2) {mail="ghi@gmail.com";}
 		    send(mail,apage1.getEmail());
 			clickaction(apage1.getSubmit());
-			Thread.sleep(4000);
+			tablewait();
 			String text = apage1.getErrormess().getAttribute("textContent");
 		    Assert.assertTrue(text.equals("من فضلك ادخل البريد الالكتروني المسجل"));
 		    apage1.getEmail().clear();
 		   }
 		   send(s3,apage1.getEmail());
 			clickaction(apage1.getSubmit());
-			Thread.sleep(4000);
+			tablewait();
 			String text = apage1.getErrormess().getAttribute("textContent");
 		    Assert.assertTrue(text.equals("من فضلك ادخل البريد الالكتروني المسجل "));
 		    URLmail();
@@ -295,7 +302,7 @@ public class Login_page_test_case extends base {
 				 Reporter.log("closed");
 		   }*/
 	   public void closee() throws InterruptedException {
-		driv.close();
+	
 			driv.quit();
 	   }
 	  

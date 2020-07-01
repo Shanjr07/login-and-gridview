@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Eit-Track" parallel="false" verbose="1">
-<parameter name="Url" value="http://spqa.thegoldenelement.com/" />
+<parameter name="Url" value="https://gps.thegoldenelement.com/" />
 <parameter name="vehiclename" value="loadtest-2370" />
 <parameter name="CorporateId" value="demo" />
 <parameter name="CorporateId_Invalid" value="AAAA" />
